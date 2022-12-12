@@ -48,6 +48,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/bengal/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/bengal/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
     <!-- NXP -->
@@ -89,6 +91,12 @@
 
   <!-- system -->
   <project path="system/qcom" name="android_system_qcom" remote="arrow"/>
+
+  <!-- Bengal hals-->
+  <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="pixelexperience" />
+  <project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="pixelexperience" />
+  <project path="hardware/qcom-caf/bengal/gps" name="hardware_qcom-caf_bengal_gps" remote="pixelexperience" />
+  <project path="hardware/qcom-caf/bengal/media" name="hardware_qcom-caf_bengal_media" remote="pixelexperience" />
 
   <!-- vendor repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
