@@ -39,7 +39,7 @@
 
   <remote name="clownui"
           fetch="https://github.com/ClownUI"
-          revision="tiramisu" />
+          revision="tiramisu-qpr2" />
 
   <remote name="protonplus"
           fetch="https://github.com/protonplus-org"

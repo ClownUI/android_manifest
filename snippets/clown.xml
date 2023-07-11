@@ -91,7 +91,7 @@
   <project path="vendor/clown" name="vendor_clown" remote="clownui"  />
 
   <!-- vendor support -->
-  <project path="vendor/support" name="vendor_support" remote="clownui"  />
+  <project path="vendor/support" name="vendor_support" remote="clownui" revision="tiramisu" />
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="RastaMod69-Clang" revision="clang-12.0" remote="clownui" />

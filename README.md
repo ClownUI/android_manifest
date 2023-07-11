@@ -14,7 +14,7 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, use command:
 
 ```bash
-repo init -u https://github.com/ClownUI/android_manifest.git -b tiramisu
+repo init -u https://github.com/ClownUI/android_manifest.git -b tiramisu-qpr2
 ```
 
 ## Then sync up: ##
