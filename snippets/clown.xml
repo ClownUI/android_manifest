@@ -58,6 +58,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="clownui"  />
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="clownui" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="clownui" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="clownui" />
 
   <!-- sepolicy -->
   <project path="device/clown/sepolicy" name="device_clown_sepolicy"  remote="clownui"  />
