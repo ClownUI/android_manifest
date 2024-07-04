@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-15.0.0_r1"
            remote="aosp"
@@ -1469,4 +1469,9 @@
   </project>
   <!-- END open-source projects -->
 
+  <!-- ClownUI -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/clown.xml" />
+  
 </manifest>
