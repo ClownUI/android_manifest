@@ -31,6 +31,7 @@
 
   <!-- External -->
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="clownui" />
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="clownui" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="clownui" />
