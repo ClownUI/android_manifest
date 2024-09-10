@@ -5,6 +5,9 @@
            fetch="https://github.com/ClownUI"
            revision="refs/heads/udc" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <remote  name="clownui-Gitlab"
            fetch="https://gitlab.com/ClownUI"
            revision="refs/heads/udc" />
@@ -63,5 +66,5 @@
   <project path="official" name="ClownUI-Devices/official" revision="udc" remote="github" />
 
   <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="RastaMod69-Clang" revision="clang-12.0" remote="clownui" />
+  <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/rastamod69-clang" revision="clang-20.0" remote="gitlab" />
 </manifest>
