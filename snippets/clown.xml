@@ -48,6 +48,8 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="clownui" />
   <!-- project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio" remote="clownui" / -->
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="clownui" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="clownui" />
+
 
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="clownui" />
