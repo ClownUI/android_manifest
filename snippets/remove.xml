@@ -99,6 +99,7 @@
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/sample" />
   <remove-project name="kernel/configs" />
+  <remove-project name="toolchain/pgo-profiles" />
 
   <!-- External -->
   <remove-project name="platform/external/avb" />

@@ -84,6 +84,7 @@
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="LineageOS" />
   <project path="external/libncurses" name="android_external_libncurses" remote="LineageOS" />
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" revision="15.0" remote="github" />
+  <project path="toolchain/pgo-profiles" name="crdroidandroid/android_toolchain_pgo-profiles" groups="pdk" revision="15.0" remote="github" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" revision="15.0" remote="github" />
   <project path="external/FadingEdgeLayout" name="crdroidandroid/android_external_FadingEdgeLayout" revision="15.0" remote="github" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" revision="15.0" groups="pdk" remote="github" />
