@@ -73,6 +73,7 @@
   <project path="system/bpf" name="system_bpf" groups="pdk" remote="clownui" />
   <project path="system/core" name="system_core" groups="pdk" remote="clownui" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="clownui" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="clownui" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="clownui" />
 
   <!-- Device -->
