@@ -12,6 +12,12 @@
            fetch="https://gitlab.com/ClownUI"
            revision="refs/heads/vic" />
 
+  <remote  name="clownui-bitbucket"
+           fetch="https://bitbucket.org/clownui"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/vic" />
+
   <!-- Art -->
   <project path="art" name="art" groups="pdk" remote="clownui" />
 
@@ -90,7 +96,7 @@
   <project path="vendor/clown" name="vendor_clown" remote="clownui" />
   <project path="vendor/addons" name="vendor_addons" remote="clownui" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="clownui" />
-  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="clownui-Gitlab" />
+  <project path="vendor/gms" name="vendor_gms_vic" clone-depth="1" remote="clownui-bitbucket" />
 
   <!-- Official-->
   <project path="official" name="ClownUI-Devices/official" revision="udc" remote="github" />
